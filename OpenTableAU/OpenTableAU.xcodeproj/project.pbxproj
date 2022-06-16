@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9962648C2859056E00A9CCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962648B2859056E00A9CCFE /* AppDelegate.swift */; };
+		9962648E2859056E00A9CCFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962648D2859056E00A9CCFE /* SceneDelegate.swift */; };
+		996264902859056E00A9CCFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9962648F2859056E00A9CCFE /* ViewController.swift */; };
+		996264932859056E00A9CCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996264912859056E00A9CCFE /* Main.storyboard */; };
+		996264952859057000A9CCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996264942859057000A9CCFE /* Assets.xcassets */; };
+		996264982859057000A9CCFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996264962859057000A9CCFE /* LaunchScreen.storyboard */; };
+		996264A32859057000A9CCFE /* OpenTableAUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264A22859057000A9CCFE /* OpenTableAUTests.swift */; };
+		996264AD2859057000A9CCFE /* OpenTableAUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264AC2859057000A9CCFE /* OpenTableAUUITests.swift */; };
+		996264AF2859057000A9CCFE /* OpenTableAUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264AE2859057000A9CCFE /* OpenTableAUUITestsLaunchTests.swift */; };
+		996264BD2859069C00A9CCFE /* reservationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264BC2859069C00A9CCFE /* reservationsListViewController.swift */; };
+		996264C0285906F200A9CCFE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264BF285906F200A9CCFE /* Constants.swift */; };
+		996264C228590ED000A9CCFE /* selectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264C128590ED000A9CCFE /* selectTimeViewController.swift */; };
+		996264C42859449800A9CCFE /* partySizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264C32859449700A9CCFE /* partySizeViewController.swift */; };
+		996264C628594C7B00A9CCFE /* addDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264C528594C7B00A9CCFE /* addDetailsViewController.swift */; };
+		996264C8285A6CB100A9CCFE /* reservationAddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264C7285A6CB100A9CCFE /* reservationAddedViewController.swift */; };
+		996264CA285A718500A9CCFE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996264C9285A718500A9CCFE /* Extensions.swift */; };
+		998C530B285A7F9A009D0594 /* reservationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998C530A285A7F9A009D0594 /* reservationDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9962649F2859057000A9CCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 996264802859056E00A9CCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 996264872859056E00A9CCFE;
+			remoteInfo = OpenTableAU;
+		};
+		996264A92859057000A9CCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 996264802859056E00A9CCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 996264872859056E00A9CCFE;
+			remoteInfo = OpenTableAU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		996264882859056E00A9CCFE /* OpenTableAU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTableAU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9962648B2859056E00A9CCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9962648D2859056E00A9CCFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9962648F2859056E00A9CCFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		996264922859056E00A9CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		996264942859057000A9CCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		996264972859057000A9CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		996264992859057000A9CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9962649E2859057000A9CCFE /* OpenTableAUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTableAUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		996264A22859057000A9CCFE /* OpenTableAUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTableAUTests.swift; sourceTree = "<group>"; };
+		996264A82859057000A9CCFE /* OpenTableAUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTableAUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		996264AC2859057000A9CCFE /* OpenTableAUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTableAUUITests.swift; sourceTree = "<group>"; };
+		996264AE2859057000A9CCFE /* OpenTableAUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTableAUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		996264BC2859069C00A9CCFE /* reservationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationsListViewController.swift; sourceTree = "<group>"; };
+		996264BF285906F200A9CCFE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		996264C128590ED000A9CCFE /* selectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectTimeViewController.swift; sourceTree = "<group>"; };
+		996264C32859449700A9CCFE /* partySizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partySizeViewController.swift; sourceTree = "<group>"; };
+		996264C528594C7B00A9CCFE /* addDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDetailsViewController.swift; sourceTree = "<group>"; };
+		996264C7285A6CB100A9CCFE /* reservationAddedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationAddedViewController.swift; sourceTree = "<group>"; };
+		996264C9285A718500A9CCFE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		998C530A285A7F9A009D0594 /* reservationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		996264852859056E00A9CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9962649B2859057000A9CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996264A52859057000A9CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9962647F2859056E00A9CCFE = {
+			isa = PBXGroup;
+			children = (
+				9962648A2859056E00A9CCFE /* OpenTableAU */,
+				996264A12859057000A9CCFE /* OpenTableAUTests */,
+				996264AB2859057000A9CCFE /* OpenTableAUUITests */,
+				996264892859056E00A9CCFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		996264892859056E00A9CCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				996264882859056E00A9CCFE /* OpenTableAU.app */,
+				9962649E2859057000A9CCFE /* OpenTableAUTests.xctest */,
+				996264A82859057000A9CCFE /* OpenTableAUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9962648A2859056E00A9CCFE /* OpenTableAU */ = {
+			isa = PBXGroup;
+			children = (
+				996264BE285906E200A9CCFE /* Helpers */,
+				996264BB2859068900A9CCFE /* View Controllers */,
+				9962648B2859056E00A9CCFE /* AppDelegate.swift */,
+				9962648D2859056E00A9CCFE /* SceneDelegate.swift */,
+				9962648F2859056E00A9CCFE /* ViewController.swift */,
+				996264912859056E00A9CCFE /* Main.storyboard */,
+				996264942859057000A9CCFE /* Assets.xcassets */,
+				996264962859057000A9CCFE /* LaunchScreen.storyboard */,
+				996264992859057000A9CCFE /* Info.plist */,
+			);
+			path = OpenTableAU;
+			sourceTree = "<group>";
+		};
+		996264A12859057000A9CCFE /* OpenTableAUTests */ = {
+			isa = PBXGroup;
+			children = (
+				996264A22859057000A9CCFE /* OpenTableAUTests.swift */,
+			);
+			path = OpenTableAUTests;
+			sourceTree = "<group>";
+		};
+		996264AB2859057000A9CCFE /* OpenTableAUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				996264AC2859057000A9CCFE /* OpenTableAUUITests.swift */,
+				996264AE2859057000A9CCFE /* OpenTableAUUITestsLaunchTests.swift */,
+			);
+			path = OpenTableAUUITests;
+			sourceTree = "<group>";
+		};
+		996264BB2859068900A9CCFE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				996264BC2859069C00A9CCFE /* reservationsListViewController.swift */,
+				996264C128590ED000A9CCFE /* selectTimeViewController.swift */,
+				996264C32859449700A9CCFE /* partySizeViewController.swift */,
+				996264C528594C7B00A9CCFE /* addDetailsViewController.swift */,
+				996264C7285A6CB100A9CCFE /* reservationAddedViewController.swift */,
+				998C530A285A7F9A009D0594 /* reservationDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		996264BE285906E200A9CCFE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				996264BF285906F200A9CCFE /* Constants.swift */,
+				996264C9285A718500A9CCFE /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		996264872859056E00A9CCFE /* OpenTableAU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996264B22859057000A9CCFE /* Build configuration list for PBXNativeTarget "OpenTableAU" */;
+			buildPhases = (
+				996264842859056E00A9CCFE /* Sources */,
+				996264852859056E00A9CCFE /* Frameworks */,
+				996264862859056E00A9CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTableAU;
+			productName = OpenTableAU;
+			productReference = 996264882859056E00A9CCFE /* OpenTableAU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9962649D2859057000A9CCFE /* OpenTableAUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996264B52859057000A9CCFE /* Build configuration list for PBXNativeTarget "OpenTableAUTests" */;
+			buildPhases = (
+				9962649A2859057000A9CCFE /* Sources */,
+				9962649B2859057000A9CCFE /* Frameworks */,
+				9962649C2859057000A9CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				996264A02859057000A9CCFE /* PBXTargetDependency */,
+			);
+			name = OpenTableAUTests;
+			productName = OpenTableAUTests;
+			productReference = 9962649E2859057000A9CCFE /* OpenTableAUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		996264A72859057000A9CCFE /* OpenTableAUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996264B82859057000A9CCFE /* Build configuration list for PBXNativeTarget "OpenTableAUUITests" */;
+			buildPhases = (
+				996264A42859057000A9CCFE /* Sources */,
+				996264A52859057000A9CCFE /* Frameworks */,
+				996264A62859057000A9CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				996264AA2859057000A9CCFE /* PBXTargetDependency */,
+			);
+			name = OpenTableAUUITests;
+			productName = OpenTableAUUITests;
+			productReference = 996264A82859057000A9CCFE /* OpenTableAUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		996264802859056E00A9CCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					996264872859056E00A9CCFE = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					9962649D2859057000A9CCFE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 996264872859056E00A9CCFE;
+					};
+					996264A72859057000A9CCFE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 996264872859056E00A9CCFE;
+					};
+				};
+			};
+			buildConfigurationList = 996264832859056E00A9CCFE /* Build configuration list for PBXProject "OpenTableAU" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9962647F2859056E00A9CCFE;
+			productRefGroup = 996264892859056E00A9CCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				996264872859056E00A9CCFE /* OpenTableAU */,
+				9962649D2859057000A9CCFE /* OpenTableAUTests */,
+				996264A72859057000A9CCFE /* OpenTableAUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		996264862859056E00A9CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996264982859057000A9CCFE /* LaunchScreen.storyboard in Resources */,
+				996264952859057000A9CCFE /* Assets.xcassets in Resources */,
+				996264932859056E00A9CCFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9962649C2859057000A9CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996264A62859057000A9CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		996264842859056E00A9CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996264C0285906F200A9CCFE /* Constants.swift in Sources */,
+				996264C42859449800A9CCFE /* partySizeViewController.swift in Sources */,
+				998C530B285A7F9A009D0594 /* reservationDetailsViewController.swift in Sources */,
+				996264902859056E00A9CCFE /* ViewController.swift in Sources */,
+				9962648C2859056E00A9CCFE /* AppDelegate.swift in Sources */,
+				996264C228590ED000A9CCFE /* selectTimeViewController.swift in Sources */,
+				996264CA285A718500A9CCFE /* Extensions.swift in Sources */,
+				9962648E2859056E00A9CCFE /* SceneDelegate.swift in Sources */,
+				996264BD2859069C00A9CCFE /* reservationsListViewController.swift in Sources */,
+				996264C8285A6CB100A9CCFE /* reservationAddedViewController.swift in Sources */,
+				996264C628594C7B00A9CCFE /* addDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9962649A2859057000A9CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996264A32859057000A9CCFE /* OpenTableAUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996264A42859057000A9CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996264AD2859057000A9CCFE /* OpenTableAUUITests.swift in Sources */,
+				996264AF2859057000A9CCFE /* OpenTableAUUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		996264A02859057000A9CCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 996264872859056E00A9CCFE /* OpenTableAU */;
+			targetProxy = 9962649F2859057000A9CCFE /* PBXContainerItemProxy */;
+		};
+		996264AA2859057000A9CCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 996264872859056E00A9CCFE /* OpenTableAU */;
+			targetProxy = 996264A92859057000A9CCFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		996264912859056E00A9CCFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996264922859056E00A9CCFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		996264962859057000A9CCFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996264972859057000A9CCFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		996264B02859057000A9CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		996264B12859057000A9CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		996264B32859057000A9CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenTableAU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenTableAU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		996264B42859057000A9CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenTableAU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenTableAU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		996264B62859057000A9CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenTableAUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenTableAU.app/OpenTableAU";
+			};
+			name = Debug;
+		};
+		996264B72859057000A9CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenTableAUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenTableAU.app/OpenTableAU";
+			};
+			name = Release;
+		};
+		996264B92859057000A9CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenTableAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenTableAU;
+			};
+			name = Debug;
+		};
+		996264BA2859057000A9CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenTableAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenTableAU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		996264832859056E00A9CCFE /* Build configuration list for PBXProject "OpenTableAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996264B02859057000A9CCFE /* Debug */,
+				996264B12859057000A9CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996264B22859057000A9CCFE /* Build configuration list for PBXNativeTarget "OpenTableAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996264B32859057000A9CCFE /* Debug */,
+				996264B42859057000A9CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996264B52859057000A9CCFE /* Build configuration list for PBXNativeTarget "OpenTableAUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996264B62859057000A9CCFE /* Debug */,
+				996264B72859057000A9CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996264B82859057000A9CCFE /* Build configuration list for PBXNativeTarget "OpenTableAUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996264B92859057000A9CCFE /* Debug */,
+				996264BA2859057000A9CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 996264802859056E00A9CCFE /* Project object */;
+}
