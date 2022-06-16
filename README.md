@@ -2,6 +2,10 @@
 ## Assignment
 Build an iPhone app which allows restaurant staff to create and view reservations for the day.
 
+
+https://user-images.githubusercontent.com/89708428/173964514-74fbd374-cc91-4daf-b568-55e212664efd.mp4
+
+
 ## Requirements
 * The app should launch to the Reservations screen.
 * The Reservations screen should display all of the day’s reservations in a scrollable list,
